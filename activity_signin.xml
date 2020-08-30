@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin"
+    android:background="@drawable/bground">
+    <ImageView
+        android:id="@+id/signintext"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:background="@drawable/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/todo2" />
+    <ImageView
+        android:id="@+id/termstext"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tandc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/sign_inBtn"
+        android:contentDescription="@string/todo2" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:autofillHints="Yes"
+        android:background="@drawable/rectpa"
+        android:hint="Email"
+        android:inputType="none|textWebEmailAddress"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorHint="#A9A9A9"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints="Yes"
+        android:gravity="center"
+        android:background="@drawable/rectpa"
+        android:hint="@string/passwordsingup"
+        android:textColor="#000000"
+        android:inputType="textPassword|textWebPassword"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorHint="#A9A9A9"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/sign_inBtn"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/log_in_rect_round"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
