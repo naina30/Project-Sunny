@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg">
+    <ImageView
+        android:id="@+id/details"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:background="@drawable/details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:contentDescription="@string/todo2" />
+    <ImageView
+        android:id="@+id/termstext"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tandc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sign_up"
+        android:contentDescription="@string/todo2" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rectpa"
+        android:hint="@string/EmailSignUp"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:targetApi="o"
+        android:textColor="#000000"
+        android:textColorHint="#A9A9A9"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/enr"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectpa"
+        android:hint="@string/enrollment_nosignUp"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:targetApi="o"
+        android:textColor="#000000"
+        android:textColorHint="#A9A9A9"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/enr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectpa"
+        android:hint="@string/passwordsingup"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:targetApi="o"
+        android:textColor="#000000"
+        android:textColorHint="#A9A9A9"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectpa"
+        android:hint="@string/date_of_birthSignUp"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:targetApi="o"
+        android:textColor="#000000"
+        android:textColorHint="#A9A9A9"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/log_in_rect_round"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
