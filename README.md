@@ -1,5 +1,9 @@
 # Project-Sunny
-An Android based Chat Application.The application has been designed using Figma and the designs have been successfully brought to life using Android Studio. 
+An Android based Chat Application.
+
+**Please look through the comments below each activity for final implementation screenshots.**
+
+The application has been designed using Figma and the designs have been successfully brought to life using Android Studio. 
 The layouts have been coded in XML(Extensible Mark-up Language) using the inbuilt editor provided by Android Studio in collaboration with JetBrains and intelliJ.
 The functionality has been implemented using Java and the inbuilt libraries provided by Android. The project has been migrated to androidx to prevent any degeneration
 due to previous versions. 
